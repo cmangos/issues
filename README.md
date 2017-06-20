@@ -8,7 +8,6 @@ You can find the code on the [CMaNGOS organization page on GitHub](https://githu
 * [Classic](https://github.com/cmangos/mangos-classic)
 * [TBC](https://github.com/cmangos/mangos-tbc)
 * [WotLK](https://github.com/cmangos/mangos-wotlk)
-* [Cata](https://github.com/cmangos/mangos-cata)
-* [WoD](https://github.com/cmangos/cmangos-wod)
+* [Cata](https://github.com/cmangos/mangos-cata) (currently unsupported)
 
 Please follow the [contributing guidelines](https://github.com/cmangos/mangos-wotlk/blob/master/CONTRIBUTING.md) when opening issues.
