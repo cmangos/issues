@@ -1,6 +1,6 @@
----
+﻿---
 name: 🚀 Feature
-about: Only for well defined and described Features
+about: Ask for a well defined and described Feature
 ---
 
 ## 🚀 Feature
