@@ -35,7 +35,7 @@ CMaNGOS Repo & Commit Hash:  ()[]
   Valid values are:
   - (CLASSIC)[https://github.com/cmangos/classic-db/tree/XXXX]
   - (TBC)[https://github.com/cmangos/tbc-db/tree/XXXX]
-  - (WOTLK) [https://github.com/cmangos/wotlk-db/tree/XXXX]
+  - (WOTLK)[https://github.com/cmangos/wotlk-db/tree/XXXX]
 
   To find XXXX use `git log -1 --format=%H` in your local Database repo
 -->
