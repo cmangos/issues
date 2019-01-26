@@ -1,6 +1,6 @@
 ---
 name: 🚀 Feature
-about: Ask for a well defined and described Feature
+about: Ask for a well defined and described Feature for CMaNGOS.
 ---
 
 ## 🚀 Feature
