@@ -13,31 +13,31 @@ about: Report any bug or defect you've come accross when using CMaNGOS.
 <!--
   Client Version - is required
   Valid values are:
-  - `1.12.1` (CLASSIC)
-  - `2.4.3` (TBC)
-  - `3.3.5a` (WOTLK)
+  - "1.12.1" (CLASSIC)
+  - "2.4.3" (TBC)
+  - "3.3.5a" (WOTLK)
 -->
 Client Version: []
 
 <!--
   Commit Hash - is required
   Valid values are:
-  - (CLASSIC)[https://github.com/cmangos/mangos-classic/tree/XXXX]
-  - (TBC)[https://github.com/cmangos/mangos-tbc/tree/XXXX]
-  - (WOTLK)[https://github.com/cmangos/mangos-wotlk/tree/XXXX]
+  - [CLASSIC](https://github.com/cmangos/mangos-classic/tree/XXXX)
+  - [TBC](https://github.com/cmangos/mangos-tbc/tree/XXXX)
+  - [WOTLK](https://github.com/cmangos/mangos-wotlk/tree/XXXX)
 
-  To find XXXX use `git log -1 --format=%H` in your local CMaNGOS repo
+  To find XXXX use "git log -1 --format=%H" in your local CMaNGOS repo
 -->
-CMaNGOS Repo & Commit Hash:  ()[]
+CMaNGOS Repo & Commit Hash:  []()
 
 <!--
   Database Version - is required
   Valid values are:
-  - (CLASSIC)[https://github.com/cmangos/classic-db/tree/XXXX]
-  - (TBC)[https://github.com/cmangos/tbc-db/tree/XXXX]
-  - (WOTLK)[https://github.com/cmangos/wotlk-db/tree/XXXX]
+  - [CLASSIC](https://github.com/cmangos/classic-db/tree/XXXX)
+  - [TBC](https://github.com/cmangos/tbc-db/tree/XXXX)
+  - [WOTLK](https://github.com/cmangos/wotlk-db/tree/XXXX)
 
-  To find XXXX use `git log -1 --format=%H` in your local Database repo
+  To find XXXX use "git log -1 --format=%H" in your local Database repo
 -->
 Database Repo & Commit Hash: []()
 
