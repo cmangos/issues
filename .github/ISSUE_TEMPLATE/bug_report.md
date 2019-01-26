@@ -1,4 +1,4 @@
-﻿---
+---
 name: 🐛 Bug Report
 about: Report any bug or defect you've come accross when using CMaNGOS.
 ---

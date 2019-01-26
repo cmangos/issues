@@ -1,4 +1,4 @@
-﻿---
+---
 name: 💬 Question
 about: Ask a Question of the developers if you need help understanding CMaNGOS.
 ---
