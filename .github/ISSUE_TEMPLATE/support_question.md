@@ -6,7 +6,7 @@ about: Ask a Question of the developers if you need help understanding CMaNGOS.
 <!-- Support on Github is limited! Refer to Discord to engage directly with the developers
 regarding Usage and Development of CMaNGOS; CMaNGOS Discord: https://discord.gg/rBaNJRT -->
 
-## 💬 Question
+## 💬 Support Question
 <!-- Describe your Question in detail. Include screenshots and drawings if needed. -->
 
 ### Version & Environment
