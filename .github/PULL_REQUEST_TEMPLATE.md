@@ -2,7 +2,7 @@
 <!-- Describe the Pullrequest. -->
 
 ### Proof
-<!-- Link ressources as proof -->
+<!-- Link resources as proof -->
 - None
 
 ### Issues
