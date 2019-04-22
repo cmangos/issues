@@ -12,12 +12,6 @@
 -->
 - None
 
-### Checklist
-<!-- Anything important to be thought of when deploying?
-- [ ] Breaking/critical change
--->
-- [X] None
-
 ### How2Test
 <!-- Give a detailed description how to test your PR and confirm it is working as expected.
 - Test1
@@ -25,6 +19,6 @@
 -->
 - None
 
-### Todo
-<!-- In case some parts are still missing, list them here. -->
+### Todo / Checklist
+<!-- In case some parts are still missing, important notes, breaking changes and other notable items, list them here. -->
 - [X] None
