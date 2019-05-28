@@ -1,6 +1,8 @@
 ---
 name: 🚀 Feature
 about: Ask for a well defined and described Feature for CMaNGOS.
+labels: feature
+title: 🚀 [Feature] 
 ---
 
 ## 🚀 Feature

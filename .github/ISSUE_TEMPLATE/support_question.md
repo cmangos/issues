@@ -1,6 +1,8 @@
 ---
 name: 💬 Support Question
 about: Ask a Question of the developers if you need help understanding CMaNGOS.
+labels: question
+title: 💬 [Question] 
 ---
 <!-- Chat with the CMangos DevTeam -->
 <!-- Support on Github is limited! Refer to Discord to engage directly with the developers
