@@ -1,6 +1,8 @@
 ---
 name: 🐛 Bug Report
 about: Report any bug or defect you've come accross when using CMaNGOS.
+labels: "Info: Needs Replication"
+title: 🐛 [Bug Report] 
 ---
 
 ## 🐛 Bugreport
@@ -17,7 +19,7 @@ about: Report any bug or defect you've come accross when using CMaNGOS.
   - "2.4.3" (TBC)
   - "3.3.5a" (WOTLK)
 -->
-Client Version: []
+Client Version: 
 
 <!--
   Commit Hash - is required
@@ -28,7 +30,7 @@ Client Version: []
 
   To find XXXX use "git log -1 --format=%H" in your local CMaNGOS repo
 -->
-CMaNGOS Repo & Commit Hash:  []()
+CMaNGOS Repo & Commit Hash: 
 
 <!--
   Database Version - is required
@@ -39,7 +41,7 @@ CMaNGOS Repo & Commit Hash:  []()
 
   To find XXXX use "git log -1 --format=%H" in your local Database repo
 -->
-Database Repo & Commit Hash: []()
+Database Repo & Commit Hash: 
 
 <!--
   Operating System - optional
@@ -48,7 +50,7 @@ Database Repo & Commit Hash: []()
   - MacOS XX
   - Linux Flavor
 -->
-Operating System: []
+Operating System: 
 
 ### Steps to reproduce
 1.
