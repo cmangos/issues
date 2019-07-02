@@ -1,15 +1,15 @@
 ---
-name: 💬 Support Question
+name: 💬 Support Request
 about: Ask a Question of the developers if you need help understanding CMaNGOS.
-labels: question
-title: 💬 [Question] 
+labels: "Type: Support"
+title: 💬 [Support Request] 
 ---
 <!-- Chat with the CMangos DevTeam -->
 <!-- Support on Github is limited! Refer to Discord to engage directly with the developers
 regarding Usage and Development of CMaNGOS; CMaNGOS Discord: https://discord.gg/rBaNJRT -->
 
-## 💬 Support Question
-<!-- Describe your Question in detail. Include screenshots and drawings if needed. -->
+## 💬 Support Request
+<!-- Describe your request in detail. Include screenshots and drawings if needed. -->
 
 ### Version & Environment
 <!-- Provide these infos if available and applicable -->

@@ -1,8 +1,8 @@
 ---
 name: 🐛 Bug Report
 about: Report any bug or defect you've come accross when using CMaNGOS.
-labels: bug
-title: 🐛 [Bug] 
+labels: "Info: Needs Replication"
+title: 🐛 [Bug Report] 
 ---
 
 ## 🐛 Bugreport
