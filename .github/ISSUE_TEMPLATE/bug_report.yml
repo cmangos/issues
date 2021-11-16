@@ -56,6 +56,13 @@ body:
       placeholder: Fetch using 'git rev-parse HEAD' in your local database repo
     validations:
       required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system (including version) are you using for your server environment
+    validations:
+      required: true
   - type: checkboxes
     id: client-versions
     attributes:
@@ -65,10 +72,3 @@ body:
         - label: 1.1.12 (Classic)
         - label: 2.4.3 (The Burning Crusade)
         - label: 3.3.5a (Wrath of the Lich King)
-  - type: input
-    id: operating-system
-    attributes:
-      label: Operating System
-      description: What operating system (including version) are you using for your server environment
-    validations:
-      required: true
