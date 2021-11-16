@@ -1,0 +1,77 @@
+name: 💬 Support Request
+description: Submit a Support Request
+title: "💬 [Support Request] "
+labels: "Type: Support"
+body:
+  - type: markdown
+    attributes:
+      value: Before raising a support request, please search for existing support requests to avoid creating duplicates. We recommend joining our [Discord server](https://discord.gg/Dgzerzb) as this may result in a quicker response.
+  - type: dropdown
+    id: core-version
+    attributes:
+      label: Core Version
+      description: What version of the CMaNGOS core are you running?
+      options:
+        - mangos-classic
+        - mangos-tbc
+        - mangos-wotlk
+      validations:
+        required: true
+  - type: textarea
+    id: request-details
+    attributes:
+      label: Support Request Details
+      description: Summarize the issue you're encountering, provide as many details as possible
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps we can take to reproduce the issue you're experiencing
+      value: |
+        1.
+        2.
+        3.
+        4.
+    validations:
+      required: true
+  - type: textarea
+    id: crash-log
+    attributes:
+      label: Crash Log
+      description: Provide us with the output from a core dump or when running 'mangosd' or 'realmd' through gdb
+  - type: input
+    id: core-hash
+    attributes:
+      label: Core SHA1 Commit Hash
+      description: The commit SHA1 hash of your core
+      placeholder: Fetch using 'git rev-parse HEAD' in your local CMaNGOS repo
+    validations:
+      required: true
+  - type: input
+    id: db-hash
+    attributes:
+      label: Database SHA1 Commit Hash
+      description: The commit SHA1 hash of your database
+      placeholder: Fetch using 'git rev-parse HEAD' in your local database repo
+    validations:
+      required: true
+  - type: dropdown
+    id: client-version
+    attributes:
+      label: Client Version
+      description: What version of the client are you running?
+      options:
+        - 1.1.12 (Classic)
+        - 2.4.3 (The Burning Crusade)
+        - 3.3.5a (Wrath of the Lich King)
+      validations:
+        required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system (including version) are you using for your server environment
+    validations:
+      required: true
