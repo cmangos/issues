@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: CMaNGOS Community Support
+    url: https://discord.gg/Dgzerzb
+    about: Support provided by our community! May provide faster responses than submitting an issue in GitHub.
