@@ -15,8 +15,8 @@ body:
         - mangos-classic
         - mangos-tbc
         - mangos-wotlk
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: request-details
     attributes:
@@ -66,8 +66,8 @@ body:
         - 1.1.12 (Classic)
         - 2.4.3 (The Burning Crusade)
         - 3.3.5a (Wrath of the Lich King)
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: operating-system
     attributes:
