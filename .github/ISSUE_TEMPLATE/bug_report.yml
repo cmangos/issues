@@ -18,6 +18,11 @@ body:
     attributes:
       label: Steps to reproduce
       description: Provide the exact steps that can be used to reproduce the issue
+      value: |
+        1.
+        2.
+        3.
+        4.
     validations:
       required: true
   - type: dropdown
@@ -34,6 +39,7 @@ body:
     attributes:
       label: Steps to reproduce
       description: Provide the exact steps that can be used to reproduce the issue
+      placeholder: 
     validations:
       required: true
   - type: input
