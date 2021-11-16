@@ -3,25 +3,25 @@ description: File a Bug Report
 title: "🐛 [Bug Report] "
 labels: "Info: Needs Replication"
 body:
-- type: markdown
-  attributes:
-    value: Before raising an issue, please search for existing issues to avoid creating duplicates.
-- type: textarea
-  id: bug-details
-  attributes:
-    label: Bug Details
-    description: Summarize the bug encountered, provide as many details in your description as possible
-  validations:
-    required: true
-- type: textarea
-  id: steps-to-reproduce
-  attributes:
-    label: Steps to reproduce
-    description: Provide the exact steps that can be used to reproduce the issue
-  validations:
-    required: true
-- type: dropdown
-    id: version
+  - type: markdown
+    attributes:
+      value: Before raising an issue, please search for existing issues to avoid creating duplicates.
+  - type: textarea
+    id: bug-details
+    attributes:
+      label: Bug Details
+      description: Summarize the bug encountered, provide as many details in your description as possible
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the exact steps that can be used to reproduce the issue
+    validations:
+      required: true
+  - type: dropdown
+    id: client-version
     attributes:
       label: Client Version
       description: What version of the client are you running?
@@ -29,48 +29,48 @@ body:
         - 1.1.12 (Classic)
         - 2.4.3 (The Burning Crusade)
         - 3.3.5a (Wrath of the Lich King)
-- type: textarea
-  id: version-environment-information
-  attributes:
-    label: Steps to reproduce
-    description: Provide the exact steps that can be used to reproduce the issue
-  validations:
-    required: true
-- type: input
-  id: core-hash
-  attributes:
-    label: Core SHA1 Commit Hash
-    description: The commit SHA1 hash of your core
-    placeholder: Fetch using 'git rev-parse HEAD' in your local CMaNGOS repo
-  validations:
-    required: true
-- type: input
-  id: db-hash
-  attributes:
-    label: Database SHA1 Commit Hash
-    description: The commit SHA1 hash of your database
-    placeholder: Fetch using 'git rev-parse HEAD' in your local database repo
-  validations:
-    required: true
-- type: input
-  id: operating-system
-  attributes:
-    label: Operating System
-    description: What operating system are you using for your server environment
-  validations:
-    required: true
-- type: textarea
-  id: expected-behavior
-  attributes:
-    label: Expected behavior
-    description: Describe what you should see instead
-- type: textarea
-  id: suggested-workaround
-  attributes:
-    label: Suggested Workaround
-    description: If you have a workaround please let us know
-- type: textarea
-  id: crash-log
-  attributes:
-    label: Crash Log
-    description: Provide us with the output from a core dump or when running 'mangosd' or 'realmd' through gdb
+  - type: textarea
+    id: version-environment-information
+    attributes:
+      label: Steps to reproduce
+      description: Provide the exact steps that can be used to reproduce the issue
+    validations:
+      required: true
+  - type: input
+    id: core-hash
+    attributes:
+      label: Core SHA1 Commit Hash
+      description: The commit SHA1 hash of your core
+      placeholder: Fetch using 'git rev-parse HEAD' in your local CMaNGOS repo
+    validations:
+      required: true
+  - type: input
+    id: db-hash
+    attributes:
+      label: Database SHA1 Commit Hash
+      description: The commit SHA1 hash of your database
+      placeholder: Fetch using 'git rev-parse HEAD' in your local database repo
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system are you using for your server environment
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you should see instead
+  - type: textarea
+    id: suggested-workaround
+    attributes:
+      label: Suggested Workaround
+      description: If you have a workaround please let us know
+  - type: textarea
+    id: crash-log
+    attributes:
+      label: Crash Log
+      description: Provide us with the output from a core dump or when running 'mangosd' or 'realmd' through gdb
