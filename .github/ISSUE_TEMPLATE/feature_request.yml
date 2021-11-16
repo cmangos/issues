@@ -18,8 +18,6 @@ body:
     attributes:
       label: Visualizations
       description: Provide screenshots or drawings (https://draw.io) of your feature request
-    validations:
-      required: true
   - type: textarea
     id: benefits-purpose
     attributes:
