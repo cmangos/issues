@@ -57,6 +57,13 @@ body:
       placeholder: Fetch using 'git rev-parse HEAD' in your local database repo
     validations:
       required: true
+  - type: input
+    id: server-operating-system
+    attributes:
+      label: Server Operating System
+      description: What operating system (including version) are you using for your server environment
+    validations:
+      required: true
   - type: dropdown
     id: client-version
     attributes:
@@ -69,9 +76,9 @@ body:
     validations:
       required: true
   - type: input
-    id: operating-system
+    id: client-operating-system
     attributes:
-      label: Operating System
-      description: What operating system (including version) are you using for your server environment
+      label: Client Operating System
+      description: What operating system (including version) are you using on your local system
     validations:
       required: true
