@@ -1,4 +1,4 @@
-name: Bug Report
+name: 🐛 Bug Report
 description: File a Bug Report
 title: "🐛 [Bug Report] "
 labels: "Info: Needs Replication"
@@ -16,7 +16,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to reproduce
+      label: Steps to Reproduce
       description: Provide the exact steps that can be used to reproduce the issue
       value: |
         1.
@@ -25,15 +25,15 @@ body:
         4.
     validations:
       required: true
-  - type: dropdown
-    id: client-version
+  - type: checkboxes
+    id: client-versions
     attributes:
-      label: Client Version
-      description: What version of the client are you running?
+      label: Client Version(s)
+      description: What version(s) of the client does this issue affect?
       options:
-        - 1.1.12 (Classic)
-        - 2.4.3 (The Burning Crusade)
-        - 3.3.5a (Wrath of the Lich King)
+        - label: 1.1.12 (Classic)
+        - label: 2.4.3 (The Burning Crusade)
+        - label: 3.3.5a (Wrath of the Lich King)
   - type: input
     id: core-hash
     attributes:
