@@ -1,0 +1,40 @@
+name: 🚀 Feature Request
+description: Create a Feature Request
+title: "🚀 [Feature Request] "
+labels: "Type: Feature Request"
+body:
+  - type: markdown
+    attributes:
+      value: Before creating a new feature request, please search for existing requests to avoid creating duplicates. Also note that CMaNGOS makes every effort to appear Blizzlike so feature requests may not always be worked on.
+  - type: textarea
+    id: feature-details
+    attributes:
+      label: Feature Details
+      description: Describe the feature request in detail, explain how you see it being implemented and working exactly
+    validations:
+      required: true
+  - type: textarea
+    id: visualization
+    attributes:
+      label: Visualizations
+      description: Provide screenshots or drawings (https://draw.io) of your feature request
+    validations:
+      required: true
+  - type: textarea
+    id: benefits-purpose
+    attributes:
+      label: Benefits and Purpose
+      description: Explain why this feature request should be implemented and what benefits it provides
+    validations:
+      required: true
+  - type: checkboxes
+    id: core-versions
+    attributes:
+      label: Core Versions 
+      description: What version(s) do you want this feature implemented into?
+      options:
+        - label: 1.1.12 (Classic)
+        - label: 2.4.3 (The Burning Crusade)
+        - label: 3.3.5a (Wrath of the Lich King)
+    validations:
+      required: true
