@@ -36,4 +36,3 @@ body:
         - label: 1.1.12 (Classic)
         - label: 2.4.3 (The Burning Crusade)
         - label: 3.3.5a (Wrath of the Lich King)
-          required: true
