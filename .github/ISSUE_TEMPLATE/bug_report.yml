@@ -63,12 +63,14 @@ body:
       description: What operating system (including version) are you using for your server environment
     validations:
       required: true
-  - type: checkboxes
-    id: client-versions
+  - type: dropdown
+    id: client-version
     attributes:
-      label: Client Version(s)
+      label: Client Version
       description: What version(s) of the client does this issue affect?
       options:
-        - label: 1.1.12 (Classic)
-        - label: 2.4.3 (The Burning Crusade)
-        - label: 3.3.5a (Wrath of the Lich King)
+        - 1.1.12 (Classic)
+        - 2.4.3 (The Burning Crusade)
+        - 3.3.5a (Wrath of the Lich King)
+    validations:
+      required: true
