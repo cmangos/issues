@@ -69,7 +69,7 @@ body:
       label: Client Version
       description: What version(s) of the client does this issue affect?
       options:
-        - 1.1.12 (Classic)
+        - 1.12.1 (Classic)
         - 2.4.3 (The Burning Crusade)
         - 3.3.5a (Wrath of the Lich King)
     validations:
